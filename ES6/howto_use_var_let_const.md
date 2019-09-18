@@ -46,7 +46,7 @@ if (true) {
 console.log(j); // Reference Error
 
 if (true) {
-  let k = 30;
+  const k = 30;
 }
 console.log(k); // Reference Error
 
